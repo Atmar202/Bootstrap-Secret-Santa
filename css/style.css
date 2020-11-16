@@ -138,20 +138,27 @@ h1 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    width: 2.2rem;
-    height: 2.2rem;
+    font-size: 2.2rem;
+    width: 3.3rem;
+    height: 3.3rem;
     transition: 0.4s;
     text-decoration: none;
 }
 
 .social a:hover {
     text-decoration: none;
-    color: rgb(0, 195, 255);
-    background-color: var(--santa-red);
+    background-color: var(--santa-green);
     border-radius: 50%;
 }
 
 .social i {
-    color: var(--santa-green);
+    color: var(--santa-red);
+}
+
+.download-btn2 {
+    margin: 0.5rem;
+}
+
+.download-btn2 i, .download-btn i {
+    padding: 0.3rem;
 }
